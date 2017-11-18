@@ -1,0 +1,77 @@
+.background    { background-image:url(http://78.media.tumblr.com/1061954fcd7cb725dae4b956662e45f2/tumblr_inline_mns74aF5iR1qz4rgp.gif);
+    			 background-repeat:repeat;
+                 table-layout: fixed;  
+                 border-spacing: 0;  }
+.background td { padding: 0;          }
+.lava          { background-image: url(https://opengameart.org/sites/default/files/styles/medium/public/Lava%20%233.png);
+background-size: 19px 19px; }
+.wall          { background-image: url(http://i640.photobucket.com/albums/uu123/STU_WilliamHewitt/tileable_bricks_single.jpg);  }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(https://orig00.deviantart.net/4f37/f/2015/143/0/9/power_star_pixel_by_banjo2015-d8uejr1.png);
+		background-size: 19px 19px; }
+.cointwo  { background-image: url(https://image000.tutpad.com/tut/0/53/32-done.gif);   
+            background-size: 24px 24px; 
+            background-position: center}		
+.player { background-image: url(https://i.imgur.com/YiQruNd.png);
+		background-size: 26px 26px; }
+
+.portal {background: black; }
+
+.floater {background-image: url(http://superwalrusland.com/ohr/issue26/pa/stone4_b.jpg);
+background-size: 26px 26px;  }		
+.bouncer { background: #e00000;                  }	
+.ice{ background-image: url(https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX11787196.jpg);
+	background-size: 26px 26px;              }
+
+.game {
+  overflow: hidden;
+  max-width: 700px;
+  max-height: 550px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(https://i.imgur.com/GFVovJ5.png);
+		background-size: 26px 26px;
+		
+		
+
+}
+.won .player {
+  background-image: url(https://i.imgur.com/fy385CB.png);
+		background-size: 26px 26px;
+		
+		
+}
+
+#score
+{
+	color:white;
+    position: absolute;
+    z-index: 100;
+	margin-left:10px;
+	margin-top:4px;	
+	font-size:20px;
+	font-family: courier;
+}
+#game{
+    z-index: 100;
+	margin-left:200px;
+	position: absolute;
+	font-size:30px;
+	margin-top:4px;	
+	color:white;
+	font-family: courier;
+}
+
+#level{
+    z-index: 100;
+	margin-left:590px;
+	position: absolute;
+	font-size:20px;
+	margin-top:4px;	
+	color:white;
+	font-family: courier;
+}
+
